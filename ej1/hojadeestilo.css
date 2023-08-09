@@ -21,4 +21,18 @@ ul li span {
     color:chartreuse;
 }
 
+@media (any-hover: hover) {
+    a:hover {
+      background: yellow;
+    }
+
+  }
+
+  @media (width < 450px) {
+    a:hover {
+      background: rgb(179, 12, 20);
+    }
+    
+  }
+  
 
