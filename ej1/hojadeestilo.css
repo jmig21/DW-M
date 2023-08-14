@@ -28,11 +28,18 @@ ul li span {
 
   }
 
-  @media (width < 550px) {
+  @media (width < 550px) and (width > 300px) {
     a:hover {
       background: rgb(179, 12, 20);
     }
     
   }
+
+  @media (min-width: 30rem) and (orientation: landscape) {
+    a:hover {
+        background: rgb(29, 173, 184);
+      }
+  }
+  
   
 
