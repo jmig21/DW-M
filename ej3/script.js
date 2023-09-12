@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", async() => {
+document.addEventListener("DOMContentLoaded", async () => {
     const apiUrl = "https://api.artic.edu/api/v1/artists";
 
   try{
